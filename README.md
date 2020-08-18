@@ -11,12 +11,12 @@ go get github.com/13ph03nix/country_codes_search
 ## Usage
 
 ```
-➜ ./c2c -h
-Usage of ./c2c:
+➜ country_codes_search -h
+Usage of country_codes_search:
   -k string
     	The keyword to search (ignore case) (default "A")
 
-➜ ./c2c -k 国
+➜ country_codes_search -k 国
 DE --- 德国
 FR --- 法国
 CG --- 刚果共和国
@@ -30,7 +30,7 @@ CN --- 中国
 US --- 美国
 MO --- 中国澳门
 
-➜ ./c2c -k X
+➜ country_codes_search -k X
 SX --- 荷属圣马丁
 XK --- 科索沃
 MX --- 墨西哥
